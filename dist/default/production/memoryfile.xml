@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\IR_Cam.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>16376</length>
+      <used>8292</used>
+      <free>8084</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>3776</length>
+      <used>644</used>
+      <free>3132</free>
+    </memory>
+  </executable>
+</project>

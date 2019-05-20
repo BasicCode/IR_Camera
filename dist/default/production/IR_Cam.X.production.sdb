@@ -1,0 +1,585 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F24J50 ]
+[d frameptr 4065 ]
+"22 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\AMG88xx.c
+[v _i2c_send_data i2c_send_data `(v  1 e 1 0 ]
+"37
+[v _i2c_send_request i2c_send_request `(v  1 e 1 0 ]
+"49
+[v _i2c_receive_data i2c_receive_data `(uc  1 e 1 0 ]
+"78
+[v _i2c_master_wait i2c_master_wait `(v  1 e 1 0 ]
+"85
+[v _AMGInit AMGInit `(v  1 e 1 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"72 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\main.c
+[v _initSPI initSPI `(v  1 e 1 0 ]
+"100
+[v _initI2C initI2C `(v  1 e 1 0 ]
+"118
+[v _initADC initADC `(v  1 e 1 0 ]
+"135
+[v _convertDataToString convertDataToString `(v  1 e 1 0 ]
+"203
+[v _drawOverlay drawOverlay `(v  1 e 1 0 ]
+"241
+[v _dataToColour dataToColour `(ui  1 e 2 0 ]
+"270
+[v _getIRData getIRData `(v  1 e 1 0 ]
+"306
+[v _drawBuffersToDisplay drawBuffersToDisplay `(v  1 e 1 0 ]
+"351
+[v _calculateInterpolatedPixels calculateInterpolatedPixels `(v  1 e 1 0 ]
+"369
+[v _main main `(v  1 e 1 0 ]
+"43 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\ST7735.c
+[v _spi_write spi_write `(v  1 e 1 0 ]
+"67
+[v _lcd_write_data lcd_write_data `(v  1 e 1 0 ]
+"79
+[v _lcd_write_command lcd_write_command `(v  1 e 1 0 ]
+"93
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+"112
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"133
+[v _lcd_init_command_list lcd_init_command_list `(v  1 e 1 0 ]
+"162
+[v _draw_pixel draw_pixel `(v  1 e 1 0 ]
+"173
+[v _draw_h_line draw_h_line `(v  1 e 1 0 ]
+"183
+[v _draw_v_line draw_v_line `(v  1 e 1 0 ]
+"193
+[v _fill_rectangle fill_rectangle `(v  1 e 1 0 ]
+"222
+[v _set_draw_window set_draw_window `(v  1 e 1 0 ]
+"245
+[v _draw_char draw_char `(v  1 e 1 0 ]
+"274
+[v _draw_string draw_string `(v  1 e 1 0 ]
+"294
+[v _get_colour get_colour `(ui  1 e 2 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f24j50.h
+[v _RPOR0 RPOR0 `VEuc  1 e 1 @3782 ]
+"59
+[v _RPOR1 RPOR1 `VEuc  1 e 1 @3783 ]
+"3401
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @3954 ]
+"3521
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @3955 ]
+"4061
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @3957 ]
+"6895
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+"7883
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"10323
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"10420
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"10571
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"10591
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"10611
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @4037 ]
+"10965
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @4038 ]
+"11203
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @4039 ]
+"12177
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @4040 ]
+"12531
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @4041 ]
+"13651
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16500
+[v _IOLOCK IOLOCK `VEb  1 e 0 @30712 ]
+"17172
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"17175
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"17187
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"17199
+[v _RC4 RC4 `VEb  1 e 0 @31764 ]
+"17205
+[v _RC6 RC6 `VEb  1 e 0 @31766 ]
+"17229
+[v _RCEN RCEN `VEb  1 e 0 @32299 ]
+"18069
+[v _TRISA0 TRISA0 `VEb  1 e 0 @31888 ]
+"18072
+[v _TRISA1 TRISA1 `VEb  1 e 0 @31889 ]
+"18102
+[v _TRISB4 TRISB4 `VEb  1 e 0 @31900 ]
+"18105
+[v _TRISB5 TRISB5 `VEb  1 e 0 @31901 ]
+"18114
+[v _TRISC0 TRISC0 `VEb  1 e 0 @31904 ]
+"18117
+[v _TRISC1 TRISC1 `VEb  1 e 0 @31905 ]
+"18120
+[v _TRISC2 TRISC2 `VEb  1 e 0 @31906 ]
+"39 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\main.c
+[v _BG_COLOUR BG_COLOUR `Cui  1 e 2 0 ]
+"43
+[v _box_size box_size `Ci  1 e 2 0 ]
+"45
+[v _addr addr `Cuc  1 e 1 0 ]
+"47
+[v _start_pixel_reg start_pixel_reg `Cuc  1 e 1 0 ]
+"49
+[v _cursor_colour cursor_colour `Cui  1 e 2 0 ]
+"52
+[v _ir_buffer ir_buffer `[64]i  1 e 128 0 ]
+"53
+[v _y_interpolated_pixels y_interpolated_pixels `[64]i  1 e 128 0 ]
+"54
+[v _x_interpolated_pixels x_interpolated_pixels `[64]i  1 e 128 0 ]
+"55
+[v _xy_interpolated_pixels xy_interpolated_pixels `[64]i  1 e 128 0 ]
+[s S24 Pixel 6 `i 1 x 2 0 `i 1 y 2 2 `i 1 temperature 2 4 ]
+"65
+[v _max_pixel max_pixel `S24  1 e 6 0 ]
+"66
+[v _min_pixel min_pixel `S24  1 e 6 0 ]
+"16 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\ST7735.h
+[v _Font Font `C[255]uc  1 e 255 0 ]
+"69
+[v _Font2 Font2 `C[220]uc  1 e 220 0 ]
+"369 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"418
+} 0
+"112 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\ST7735.c
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"126
+} 0
+"133
+[v _lcd_init_command_list lcd_init_command_list `(v  1 e 1 0 ]
+{
+"156
+} 0
+"93
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+{
+"94
+[v delay_ms@cycles cycles `ul  1 a 4 16 ]
+"93
+[v delay_ms@millis millis `l  1 p 4 12 ]
+"96
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"72 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\main.c
+[v _initSPI initSPI `(v  1 e 1 0 ]
+{
+"95
+} 0
+"100
+[v _initI2C initI2C `(v  1 e 1 0 ]
+{
+"113
+} 0
+"118
+[v _initADC initADC `(v  1 e 1 0 ]
+{
+"126
+} 0
+"270
+[v _getIRData getIRData `(v  1 e 1 0 ]
+{
+"282
+[v getIRData@this_pixel this_pixel `ui  1 a 2 18 ]
+"279
+[v getIRData@y y `i  1 a 2 22 ]
+"278
+[v getIRData@x x `i  1 a 2 20 ]
+"276
+[v getIRData@data data `i  1 a 2 14 ]
+"275
+[v getIRData@dataH dataH `uc  1 a 1 17 ]
+"274
+[v getIRData@dataL dataL `uc  1 a 1 16 ]
+"270
+[v getIRData@buffer buffer `*.39i  1 p 2 8 ]
+"291
+} 0
+"49 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\AMG88xx.c
+[v _i2c_receive_data i2c_receive_data `(uc  1 e 1 0 ]
+{
+[v i2c_receive_data@address address `uc  1 a 1 wreg ]
+"68
+[v i2c_receive_data@data data `uc  1 a 1 6 ]
+"49
+[v i2c_receive_data@address address `uc  1 a 1 wreg ]
+[v i2c_receive_data@reg reg `uc  1 p 1 3 ]
+[v i2c_receive_data@address address `uc  1 a 1 7 ]
+"71
+} 0
+"37
+[v _i2c_send_request i2c_send_request `(v  1 e 1 0 ]
+{
+[v i2c_send_request@address address `uc  1 a 1 wreg ]
+[v i2c_send_request@address address `uc  1 a 1 wreg ]
+[v i2c_send_request@reg reg `uc  1 p 1 1 ]
+[v i2c_send_request@address address `uc  1 a 1 2 ]
+"44
+} 0
+"306 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\main.c
+[v _drawBuffersToDisplay drawBuffersToDisplay `(v  1 e 1 0 ]
+{
+"324
+[v drawBuffersToDisplay@v v `i  1 a 2 20 ]
+"323
+[v drawBuffersToDisplay@h h `i  1 a 2 18 ]
+"317
+[v drawBuffersToDisplay@data data `i  1 a 2 16 ]
+"320
+[v drawBuffersToDisplay@d_pixel d_pixel `i  1 a 2 12 ]
+"319
+[v drawBuffersToDisplay@v_pixel v_pixel `i  1 a 2 10 ]
+"318
+[v drawBuffersToDisplay@h_pixel h_pixel `i  1 a 2 8 ]
+"316
+[v drawBuffersToDisplay@y y `i  1 a 2 24 ]
+"315
+[v drawBuffersToDisplay@x x `i  1 a 2 22 ]
+"308
+[v drawBuffersToDisplay@temperature_range temperature_range `i  1 a 2 14 ]
+"306
+[v drawBuffersToDisplay@main_buffer main_buffer `*.39i  1 p 2 0 ]
+[v drawBuffersToDisplay@horizontal_buffer horizontal_buffer `*.39i  1 p 2 2 ]
+[v drawBuffersToDisplay@vertical_buffer vertical_buffer `*.39i  1 p 2 4 ]
+[v drawBuffersToDisplay@diagonal_buffer diagonal_buffer `*.39i  1 p 2 6 ]
+"346
+} 0
+"203
+[v _drawOverlay drawOverlay `(v  1 e 1 0 ]
+{
+"221
+[v drawOverlay@temperature_buffer temperature_buffer `[6]uc  1 a 6 78 ]
+"208
+[v drawOverlay@batt_voltage batt_voltage `f  1 a 3 75 ]
+"229
+[v drawOverlay@v_pos v_pos `i  1 a 2 88 ]
+"228
+[v drawOverlay@h_pos h_pos `i  1 a 2 86 ]
+"207
+[v drawOverlay@ADC_reading ADC_reading `ui  1 a 2 84 ]
+"203
+[v drawOverlay@x x `i  1 p 2 66 ]
+[v drawOverlay@y y `i  1 p 2 68 ]
+[v drawOverlay@data data `i  1 p 2 70 ]
+"234
+} 0
+"183 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\ST7735.c
+[v _draw_v_line draw_v_line `(v  1 e 1 0 ]
+{
+[v draw_v_line@x1 x1 `uc  1 a 1 wreg ]
+"185
+[v draw_v_line@y y `i  1 a 2 23 ]
+"183
+[v draw_v_line@x1 x1 `uc  1 a 1 wreg ]
+[v draw_v_line@y1 y1 `uc  1 p 1 14 ]
+[v draw_v_line@x2 x2 `uc  1 p 1 15 ]
+[v draw_v_line@y2 y2 `uc  1 p 1 16 ]
+[v draw_v_line@colour colour `ui  1 p 2 17 ]
+"185
+[v draw_v_line@x1 x1 `uc  1 a 1 22 ]
+"188
+} 0
+"274
+[v _draw_string draw_string `(v  1 e 1 0 ]
+{
+[v draw_string@x x `uc  1 a 1 wreg ]
+"281
+[v draw_string@char_pos char_pos `i  1 a 2 61 ]
+"278
+[v draw_string@counter counter `i  1 a 2 64 ]
+"276
+[v draw_string@char_width char_width `i  1 a 2 59 ]
+"274
+[v draw_string@x x `uc  1 a 1 wreg ]
+[v draw_string@y y `uc  1 p 1 53 ]
+[v draw_string@colour colour `ui  1 p 2 54 ]
+[v draw_string@size size `uc  1 p 1 56 ]
+[v draw_string@str str `*.39uc  1 p 2 57 ]
+"276
+[v draw_string@x x `uc  1 a 1 63 ]
+"287
+} 0
+"245
+[v _draw_char draw_char `(v  1 e 1 0 ]
+{
+[v draw_char@x x `uc  1 a 1 wreg ]
+"252
+[v draw_char@line line `uc  1 a 1 49 ]
+"246
+[v draw_char@i i `uc  1 a 1 52 ]
+[v draw_char@j j `uc  1 a 1 51 ]
+"245
+[v draw_char@x x `uc  1 a 1 wreg ]
+[v draw_char@y y `uc  1 p 1 40 ]
+[v draw_char@c c `uc  1 p 1 41 ]
+[v draw_char@colour colour `ui  1 p 2 42 ]
+[v draw_char@size size `uc  1 p 1 44 ]
+"249
+[v draw_char@x x `uc  1 a 1 50 ]
+"268
+} 0
+"193
+[v _fill_rectangle fill_rectangle `(v  1 e 1 0 ]
+{
+"208
+[v fill_rectangle@x x `i  1 a 2 38 ]
+"207
+[v fill_rectangle@y y `i  1 a 2 36 ]
+"196
+[v fill_rectangle@colour_low colour_low `uc  1 a 1 35 ]
+"195
+[v fill_rectangle@colour_high colour_high `uc  1 a 1 34 ]
+"193
+[v fill_rectangle@x1 x1 `i  1 p 2 22 ]
+[v fill_rectangle@y1 y1 `i  1 p 2 24 ]
+[v fill_rectangle@x2 x2 `i  1 p 2 26 ]
+[v fill_rectangle@y2 y2 `i  1 p 2 28 ]
+[v fill_rectangle@colour colour `ui  1 p 2 30 ]
+"215
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"173 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\ST7735.c
+[v _draw_h_line draw_h_line `(v  1 e 1 0 ]
+{
+[v draw_h_line@x1 x1 `uc  1 a 1 wreg ]
+"175
+[v draw_h_line@x x `i  1 a 2 23 ]
+"173
+[v draw_h_line@x1 x1 `uc  1 a 1 wreg ]
+[v draw_h_line@y1 y1 `uc  1 p 1 14 ]
+[v draw_h_line@x2 x2 `uc  1 p 1 15 ]
+[v draw_h_line@y2 y2 `uc  1 p 1 16 ]
+[v draw_h_line@colour colour `ui  1 p 2 17 ]
+"175
+[v draw_h_line@x1 x1 `uc  1 a 1 22 ]
+"178
+} 0
+"162
+[v _draw_pixel draw_pixel `(v  1 e 1 0 ]
+{
+[v draw_pixel@x x `uc  1 a 1 wreg ]
+[v draw_pixel@x x `uc  1 a 1 wreg ]
+[v draw_pixel@y y `uc  1 p 1 10 ]
+[v draw_pixel@colour colour `ui  1 p 2 11 ]
+"164
+[v draw_pixel@x x `uc  1 a 1 13 ]
+"167
+} 0
+"222
+[v _set_draw_window set_draw_window `(v  1 e 1 0 ]
+{
+[v set_draw_window@x1 x1 `uc  1 a 1 wreg ]
+[v set_draw_window@x1 x1 `uc  1 a 1 wreg ]
+[v set_draw_window@y1 y1 `uc  1 p 1 6 ]
+[v set_draw_window@x2 x2 `uc  1 p 1 7 ]
+[v set_draw_window@y2 y2 `uc  1 p 1 8 ]
+"224
+[v set_draw_window@x1 x1 `uc  1 a 1 9 ]
+"239
+} 0
+"67
+[v _lcd_write_data lcd_write_data `(v  1 e 1 0 ]
+{
+[v lcd_write_data@data data `uc  1 a 1 wreg ]
+[v lcd_write_data@data data `uc  1 a 1 wreg ]
+"69
+[v lcd_write_data@data data `uc  1 a 1 5 ]
+"74
+} 0
+"79
+[v _lcd_write_command lcd_write_command `(v  1 e 1 0 ]
+{
+[v lcd_write_command@data data `uc  1 a 1 wreg ]
+[v lcd_write_command@data data `uc  1 a 1 wreg ]
+"81
+[v lcd_write_command@data data `uc  1 a 1 5 ]
+"87
+} 0
+"43
+[v _spi_write spi_write `(v  1 e 1 0 ]
+{
+[v spi_write@data data `uc  1 a 1 wreg ]
+"54
+[v spi_write@i i `i  1 a 2 3 ]
+"43
+[v spi_write@data data `uc  1 a 1 wreg ]
+"49
+[v spi_write@data data `uc  1 a 1 2 ]
+"62
+} 0
+"135 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\main.c
+[v _convertDataToString convertDataToString `(v  1 e 1 0 ]
+{
+"184
+[v convertDataToString@tens tens `i  1 a 2 16 ]
+"170
+[v convertDataToString@units units `i  1 a 2 14 ]
+"135
+[v convertDataToString@buff buff `*.39uc  1 p 2 8 ]
+[v convertDataToString@data data `i  1 p 2 10 ]
+"197
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 21 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 25 ]
+[v ___ftdiv@exp exp `uc  1 a 1 24 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 20 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 11 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 14 ]
+"86
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"241 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\main.c
+[v _dataToColour dataToColour `(ui  1 e 2 0 ]
+{
+"244
+[v dataToColour@colour_temp colour_temp `ui  1 a 2 20 ]
+"246
+[v dataToColour@green green `uc  1 a 1 19 ]
+"245
+[v dataToColour@red red `uc  1 a 1 18 ]
+"247
+[v dataToColour@blue blue `uc  1 a 1 17 ]
+"241
+[v dataToColour@data data `i  1 p 2 11 ]
+[v dataToColour@temperature_range temperature_range `i  1 p 2 13 ]
+"264
+} 0
+"294 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\ST7735.c
+[v _get_colour get_colour `(ui  1 e 2 0 ]
+{
+[v get_colour@red red `uc  1 a 1 wreg ]
+"295
+[v get_colour@colour colour `ui  1 a 2 8 ]
+"294
+[v get_colour@red red `uc  1 a 1 wreg ]
+[v get_colour@green green `uc  1 p 1 0 ]
+[v get_colour@blue blue `uc  1 p 1 1 ]
+[v get_colour@red red `uc  1 a 1 10 ]
+"297
+} 0
+"351 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\main.c
+[v _calculateInterpolatedPixels calculateInterpolatedPixels `(v  1 e 1 0 ]
+{
+"355
+[v calculateInterpolatedPixels@y y `i  1 a 2 30 ]
+"354
+[v calculateInterpolatedPixels@x x `i  1 a 2 28 ]
+"351
+[v calculateInterpolatedPixels@main_buffer main_buffer `*.39i  1 p 2 8 ]
+[v calculateInterpolatedPixels@y_interpolated_buffer y_interpolated_buffer `*.39i  1 p 2 10 ]
+[v calculateInterpolatedPixels@x_interpolated_buffer x_interpolated_buffer `*.39i  1 p 2 12 ]
+[v calculateInterpolatedPixels@xy_interpolated_buffer xy_interpolated_buffer `*.39i  1 p 2 14 ]
+"367
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"85 C:\Users\tommy\OneDrive\Documents\MPLABXProjects\IR_Cam.X\AMG88xx.c
+[v _AMGInit AMGInit `(v  1 e 1 0 ]
+{
+"94
+} 0
+"22
+[v _i2c_send_data i2c_send_data `(v  1 e 1 0 ]
+{
+[v i2c_send_data@address address `uc  1 a 1 wreg ]
+[v i2c_send_data@address address `uc  1 a 1 wreg ]
+[v i2c_send_data@reg reg `uc  1 p 1 1 ]
+[v i2c_send_data@data data `uc  1 p 1 2 ]
+[v i2c_send_data@address address `uc  1 a 1 3 ]
+"32
+} 0
+"78
+[v _i2c_master_wait i2c_master_wait `(v  1 e 1 0 ]
+{
+"80
+} 0
